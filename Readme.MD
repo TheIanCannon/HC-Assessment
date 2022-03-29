@@ -10,4 +10,4 @@
 
 `git fetch` also checks to see if a remote repository's tracking branch is connected to your current branch. If so, it pulls any changes from the remote branch into your tracking branch. `git fetch` does not overwrite your local branch. To merge changes into your branch, use `git merge origin/master`. If your local branch is named differently, such as 'main' instead of 'master', use that name instead. Your local branch will then match the remote repository.
 
-`git pull` and `git fetch` are often described as being equivalent. In actuality, `git pull` performs `git fetch` followed immediately by `git merge`. This is often what we desire to do, but some people prefer to use `git fetch` followed by `git merge` to make sure they understand the changes they are merging into their branch before the merge happens.
+`git pull` and `git fetch` are often described as being equivalent. In actuality, `git pull` performs `git fetch` followed immediately by `git merge`. We prefer `git pull`, but you may prefer to use `git fetch` followed by `git merge` to make sure they understand the changes they are merging into their branch before the merge happens.
